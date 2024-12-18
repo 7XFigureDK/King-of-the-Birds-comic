@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.chapter-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.chapter-list ul {
+    list-style: none;
+}
+
+.chapter-list ul li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.chapter-list ul li a {
+    font-size: 1.2em;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.chapter-list ul li a:hover {
+    text-decoration: underline;
+}
+
+.comic-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.comic-panel img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.navigation {
+    margin-top: 20px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    background-color: #0073e6;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
